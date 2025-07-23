@@ -3,7 +3,7 @@ name: Hello World
 on:
   push
 
-Jobs:
+jobs:
   build:
   - name: hello-Job
     runs on: ubuntu-latest
