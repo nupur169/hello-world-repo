@@ -4,9 +4,10 @@ on:
   push
 
 Jobs:
+  build:
   - name: hello-Job
-    run:
-      runs on: ubuntu-latest
-      steps:
-      - name: Echo text
-        run: echo "Hello, world!"
+    runs on: ubuntu-latest
+    
+     steps:
+     - name: Echo text
+       run: echo "Hello, world!"
